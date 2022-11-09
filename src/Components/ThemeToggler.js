@@ -10,7 +10,7 @@ const ThemeToggler = ()=> {
             setThemeMode(themeMode === 'light' ? "dark":"light")
         }}
         >
-            <button style={{textAlign:"center"}}>{themeMode === 'light'? "Turn Off" : "Lights On"}</button>
+            <button style={{textAlign:"center", marginLeft:"130px",}}>{themeMode === 'light'? "Turn Off" : "Lights On"}</button>
         </div>
     )
 
